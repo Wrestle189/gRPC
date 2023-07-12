@@ -60,7 +60,6 @@ class GreeterServiceImpl final : public Greeter::Service {
     reply->set_message(prefix + request->name());
     return Status::OK;
   }
-
 };
 
 void RunServer(uint16_t port) {
