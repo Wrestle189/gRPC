@@ -105,4 +105,9 @@ seeking contributions for all of these libraries:
 
 ## Self
 examples/cpp/helloworld/cmake/build
+
 make
+
+./greeter_server 
+
+./greeter_client
